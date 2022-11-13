@@ -1,12 +1,17 @@
 # Payment_Service
-#Outputs are as required but code might not be as required because I had few questions regarding the DB schema. So Implemented according to my undestanding.
+#Outputs are as required but code might not be as required because I had few questions regarding the DB schema. So Implemented according to my #undestanding.
 #code can be further optimised
 #below endpoints has been exposed.
 
 POST -> http://localhost/api/v1.0/congiguration/payment-methods
+
 POST -> http://localhost/api/v1.0/congiguration/payment-plans
+
 GET -> http://localhost/api/v1.0/congiguration/all/payment-methods
+
 GET -> http://localhost:9090/api/v1.0/congiguration/payment-methods?id=&name=
+
+#PUT is missing because I was unclear update payment method or payment plan because both are different entities
 
 #run the below command to create a mariadb docker container
 
